@@ -1,0 +1,40 @@
+body{margin:0;}
+.content{width:1200px;  margin:auto;}
+.header{width:100%; height:80px; background-color:#000;}
+.header .logo {float:left}
+.header .logo h3{color:#fff; padding-top:25px; text-transform:uppercase; font-size:25px; margin:0;}
+.header .nav {float:right}
+.header .nav ul li{float:left; padding:15px; }
+.header .nav ul li a{font-size: 18px; color: #ddd; text-decoration: none;}
+.clear{clear:both}
+/*about*/
+.about{background-image:url(lolo.png); background-size:cover; width:100%; height:1500px;}
+.about p{margin:0; padding-top:20px; font-family:tahoma; text-align:center; color:#0f0;font-size:30px;}
+.about button {background:#D84780; border:0; width:200px; height:80px; color:#fff; font-size:25px;
+  font-weight:bold; text-transform:uppercase; border-radius:15px;}
+ /*blog*/
+ .blog{ width:100%; height:1050px; background:#0f0; padding-top:20px; padding-bottom: 20px;}
+ .blog .part{ width:25%; background: #fff; float: left; margin-left: 3%; margin-top: 2%;}
+ .blog .part p{text-align: center; padding: 25px;margin: 0; background: #00f;}
+ .blog .part img{width:100%; margin: 0;}
+ .blog .part button{background:#D84780; border:0; width:180px; height:60px; color:#fff; font-size:15px;
+  font-weight:bold; text-transform:uppercase; border-radius:15px;}
+  .bolg .writing{width:40%; height:150px; color:#fff;}
+  .bolg .writing i{width:50px; height:100%; float: left; padding-right: 20px;}
+  .bolg .writing p{font-family: tahoma; font-size: 16px; color:#888;}
+  /* contact*/
+  .contact{width:100%; height:500px; background:#D84780; margin:0; padding-top:20px;
+  padding-bottom:20px; text-align:center}
+  .contact h2{color:#ddd; text-transform: uppercase; font-size: 30px}
+  .contact p{font-family: tahoma; white-space: 10px; color: #f3f3f3; font-size: 18px}
+  .mauris{width: 800px; margin: auto}
+  input {width: 100%; height: 25px; border: 0; margin-top: 15px; border-bottom: 20px; padding: 10px;
+  border-radius: 10px; outline: 0; display: inline-block}
+  textarea{width: 100%; border-radius: 10px ;margin-top: 15PX;outline: 0; padding-left: 10px}
+  button{background: none;  border: 0; font-size: 20px; margin-top: 10px;color: #fff; border: 1px solid #ddd;
+  padding: 15px; border-radius: 10px; cursor: pointer}
+  button:hover{border: 1px solid #000;}
+  /*footer*/
+  .footer{width: 100%; background: #005; color:#fff; margin: 0 ; text-align: center}
+  .footer p{margin: 0;}
+  
